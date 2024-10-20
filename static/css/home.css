@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+    background-color: aqua;
+    background: url(../img/agua.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+}
+
+#flash_alerta{
+    background-color: red;
+    font-size: 50px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#fundo1{
+    background-color: #398579;
+    opacity: 0.7;
+    margin: 10% 25% 25% 25%;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bold;
+    box-shadow: 2px 5px 5px black;
+    color: aliceblue;
+    padding: 10px;
+}
+
+#fundo2{
+    background-color: rgb(213, 252, 255);
+    margin: 10%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    display: block;
+    opacity: 1;
+}
+
+#label-login{
+    color: #398579;
+}
+
+h1{
+    font-weight: bold;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.transparencia {
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    -webkit-opacity: 0.5;
+}
